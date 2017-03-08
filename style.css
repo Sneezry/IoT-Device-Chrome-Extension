@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 600px;
+    padding: 1em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.control-form input[type="text"] {
+    width: 400px;
+    border: 2px solid #7a7a7a;
+    padding: 0.5em 1em;
+    outline: none;
+}
+
+.control-form input[type="text"]:hover {
+    border-color: black;
+}
+
+.control-form input[type="text"]:focus {
+    border-color: #0078d7;
+}
+
+.control-form button {
+    background: #d7d7d7;
+    border: 2px solid #d7d7d7;
+    padding: 0.5em 2em;
+    outline: none;
+}
+
+.control-form button:hover {
+    border-color: #909090;
+}
+
+.control-form button:active {
+    border-color:#acacac;
+    background: #acacac;
+}

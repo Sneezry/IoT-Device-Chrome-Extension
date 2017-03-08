@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "IoT Device",
+    "version": "0.1.0",
+    "description": "Azure IoT Hub Device Management Tool",
+    "icons": {
+        "16": "iot.png",
+        "48": "iot.png",
+        "128": "iot.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "iot.png",
+            "38": "iot.png"
+        },
+        "default_title": "IoT Device"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "permissions": [
+        "https://*.azure-devices.net/*"
+    ]
+}
